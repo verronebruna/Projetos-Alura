@@ -14,7 +14,7 @@ console.log("Trabalhando com listas:");
 const listaDeDestinos = new Array(
   `Salvador`,
   `São Paulo`,
-  `Rio de Jeneiro`,
+  `Rio de Janeiro`,
   `Curitiba`
 );
 
