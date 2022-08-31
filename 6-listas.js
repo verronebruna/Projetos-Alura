@@ -1,3 +1,5 @@
+//Criando um sistema de venda de passagem/pacote de viagem.
+
 console.log("Trabalhando com listas:");
 // const salvador = `Salvador`;
 // const saoPaulo = `São Paulo`;
