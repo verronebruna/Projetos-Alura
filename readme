@@ -1,8 +1,0 @@
-<h1> Para rodar o programa: </h1>;
-
-<ol>
-    <li>Tenha o Node instalado;</li>;
-    <li>Consulte a versão do Node no terminal digitando "node -v";</li>;
-    <li>No terminal: cd 'caminho da pasta que deseja acessar';</li>;
-    <li>Feito isso, precisamos rodar o programa, digite node 'inicio do nome do arquivo que deseja rodar' + TAB;</li>;
-</ol>
