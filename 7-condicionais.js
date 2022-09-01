@@ -3,8 +3,9 @@
 console.log(`Trabalhando com condicionais`);
 const listaDeDestinos = new Array(`Salvador`, `São Paulo`, `Rio de Janeiro`);
 
-const idadeComprador = 14;
+const idadeComprador = 15;
 const estaAcompanhada = true;
+const temPassagemComprada = true;
 
 console.log("Destinos possiveis: ");
 console.log(listaDeDestinos);
@@ -20,14 +21,19 @@ console.log(listaDeDestinos);
 // }
 
 if (idadeComprador >= 18 || estaAcompanhada) {
-  console.log("Comprador é maior de idade.");
+  console.log("O comprador é maior de idadade ou está acompanhado.");
   listaDeDestinos.splice(1, 1); //removendo item que a pessoa quer comprar
 } else {
   console.log("Comprador não é maior de idade e não posso vender.");
 }
-//Para escrevermos algo como "ou" está acompanhado ou é maior de idade para fazer compra de pacotes, utilizamos ||no JavaScript
 
-console.log(listaDeDestinos);
+console.log("Embarque: \n");
+//O \n é um caractere especial que possibilita que pulemos uma linha no momento de imprimir a mensagem de texto.
+if (idadeComprador >= 18 && temPassagemComprada) {
+  console.log("Boa viagem");
+} else {
+  console.log("Você não pode embarcar");
+}
 
 //Utilizamos os operadores lógicos:
 // Maior que >18
@@ -36,3 +42,6 @@ console.log(listaDeDestinos);
 // Menor que ou igual <=18
 // Igualdade/Comparação ==18
 // Atribuição de valor =
+
+//Os operadores lógicos devem ter no lado esquerdo e direito uma expressão booleana, ex: if (idade > 18 && idade < 65)
+//O operador lógico "AND" é representado pelos caracteres "&&" e o "OR" pelo "||".
