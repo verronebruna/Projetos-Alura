@@ -1,4 +1,4 @@
-<h2 align=center> ℹ Este é um repositório de Estudos: </h2>
+<h2 align=center> ℹ Este é um repositório de Estudos de JavaScript: </h2>
 <div align="center"> Para rodar o programa: </div>
 <ol>
     <li>Certifique-se de que tenha o Node instalado;</li>
