@@ -6,7 +6,3 @@
     <li>No terminal, digite: cd 'caminho da pasta que deseja acessar';</li>
     <li>Feito isso, precisamos rodar o programa, digite node 'inicio do nome do arquivo que deseja rodar' + TAB;</li>
 </ol>
-
-<div align="center">
-	<img src="https://media.giphy.com/media/fuJPZBIIqzbt1kAYVc/giphy.gif" height="auto" width="auto"/>
-</div>
