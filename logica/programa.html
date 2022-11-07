@@ -21,8 +21,20 @@
   document.write("18" + "20"); //concatenação: quando tem operação de soma com um texto, ou seja, ele junta um texto com outro.
   document.write("A soma das idades é" + (20 + 10 + 30) / 3); //Temos uma frase (String), onde queremos somar a ela a soma dos valores e depois conseguir a média desses valores.
 
-  var ano = 2016; //usando variavel para atribuir em um só lugar o ano e mudar em mais de um item da lista
+  var ano = 2017; //usando variavel para atribuir em um só lugar o ano e mudar em mais de um item da lista
   document.write("Flávio nasceu em" + (ano - 39) + "<br>"); //No caso de uma lista, colocamos o BR ao final para a quebra de linha
   document.write("Joaquim nasceu em" + (ano - 20) + "<br>");
   document.write("Barney nasceu em" + (ano - 40) + "<br>");
+
+  var ano = 2016;
+  document.write("Flávio tem " + (ano - 1977) + " anos" + "<br>");
+  document.write("Joaquim tem " + (ano - 1996) + " anos" + "<br>");
+  document.write("Barney tem " + (ano - 1976) + " anos" + "<br>");
+
+  //Aqui estamos defindo a idade e fazendo a média de uma forma clara
+  var idadeFlavio = 39;
+  var idadeJoaquim = 20;
+  var idadeBarney = 41;
+
+  var media = (idadeFlavio + idadeJoaquim + idadeBarney) / 3;
 </script>
