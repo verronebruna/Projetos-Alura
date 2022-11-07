@@ -11,4 +11,5 @@
 <ol>
     <li>HTML e Javascript: pratique lógica de programação.</li>
     <li>Javascript: explorando a linguagem</li>
+    <li>JavaScript para Web: Crie páginas dinâmicas</li>
 </ol>
