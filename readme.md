@@ -6,9 +6,9 @@
     <li>No terminal, digite: cd 'caminho da pasta que deseja acessar';</li>
     <li>Feito isso, precisamos rodar o programa, digite node 'inicio do nome do arquivo que deseja rodar' + TAB;</li>
 </ol>
-<div align="center"> Nome dos cursos por divisão da pasta: </div>
+<div align="center"> Esse repositório contém as atividades e anotações dos cursos: </div>
 
 <ol>
-    <li>HTML: Curso de HTML e Javascript - pratique lógica de programação.</li>
+    <li>HTML e Javascript: pratique lógica de programação.</li>
     <li>Javascript: explorando a linguagem</li>
 </ol>
